@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+#funday {
+  height: 100vh;
+  width: 100%;
+}
+
+#info {
+  width: 620px;
+  background-color: rgb(252, 250, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.title {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.title:hover ~ .decoration {
+  width: 40%;
+}
+
+.decoration {
+  margin-left: 20px;
+  width: 20%;
+  background-color: #FFC300;
+  height: 4px;
+  border: none;
+  transition: width 0.3s;
+}
+
+.text {
+  margin-left: 20px;
+  margin-top: 30px;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.bright {
+  color: #FFC300;
+}
+
+#links {
+  margin-left: 20px;
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.link-item a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #e9b405;
+}
+
+.link-item a:hover {
+  color: #FFC300;
+}
+
+.logo {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  bottom: 20px;
+  justify-content: center;
+}
+
+.logo img {
+  width: 100px;
+}
+
+ol.instruction {
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+ol.instruction li {
+  margin: 8px;
+}
+

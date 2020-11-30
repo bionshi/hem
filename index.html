@@ -1,0 +1,108 @@
+<!--
+	Pararunten sadayana,
+	web ini aku buat untuk mengapresiasi temenku yang kini sudah tua wkwkw.
+	bagi yang menemukan wish-wish tersirat maupun tersurat, aamiin-kan saja
+	ya (ok).
+
+	mohon maaf kalau masih banyak kekurangan karena keterbatasan skill dan
+	keterbatasan waktu (1 hari) dalam pembuatannya hehe..
+
+												Bandung, 30 November 2020
+												frnz
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hoshi's Virtual Tour</title>
+
+		<!-- CSS Styling -->
+		<link rel="stylesheet" type="text/css" href="css/reset-style.css">
+		<link rel="stylesheet" type="text/css" href="css/style-sunflower.css">
+		<link rel="stylesheet" type="text/css" href="css/star-animated.css">
+
+		<!-- Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700|IM+Fell+Double+Pica:400italic' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type='text/css'>
+		  
+		<!-- MAPS API-->
+		<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5OuhkML9WUyQoBsjpZvnvZ-EkhuF3xoE&callback=initialize">
+		</script>
+		<script src="js/maps.js"></script>
+
+		<!-- GATAU INI APAAN WKWK -->
+		<!-- <script src="js/modernizr.js"></script> -->
+	</head>
+	<body>
+		<!-- Main Interface -->
+		<main class="cd-wrapper">
+			<main class="cd-main-content">
+				<section class="animated-background">
+					<div id="stars1"></div>
+					<div id="stars2"></div>
+					<div id="stars3"></div>
+				</section>
+				<content>
+					<!-- Gambar Kocheng -->
+					<a href="#popup"><img id="moonCat" src="img/moon_cat.png" alt="kocheeng"></a>
+					
+					<div id="greetings">Say hi to <span><abbr title="Elli itu kucingku wkwk">Elli!</abbr></span></div>
+					<div id="button">
+						<a class="link cd-btn cd-modal-trigger-1" href="#0">Hi</a>	
+					</div>
+					<div class="overlay" id="popup">
+						<div class="popup">
+							<div class="popup-photo">
+								<a href="img/gura.gif" target="_blank">
+									<img src="img/gura.gif" alt="aww">
+								</a>
+							</div>
+							 
+							<div class="popup-quote">
+								My first website!<br>
+								Dibuat dengan suka cita
+							</div>
+			
+							<a class="popup-close" onclick="history.back()">&times;</a>
+						</div>
+					</div>
+
+					<!-- Hashtag on footer page-->
+					<div id="hashtag">
+						frnzoshi
+					</div>
+				</content>
+			</main>
+			
+			<!-- First Wrapper: Sebuah ucapan singkat -->
+			<main class="cd-modal" id="2">
+				<div class="modal-content">
+					<h1>Shabrina Alfath R.</h1>
+					<p>"Halo sheb"</p>
+					<p>"Hem, telat ya... monmaap yaa sheb hehe"</p>
+					<p>"Nah, aku yakin sih hari ini pasti udah banyak yang ngedoain kamu kan, jadi aku bantu aamiin-in aja deh ya wkwkw.. Buat sekarang, mungkin yang simpel dulu aja ya kesan-n-wishnya karna aku kondisinya lagi kurang baik.."</p>
+					<p>"Sbg akhir nih, aku iseng ngebuat sesuatu, tapi mungkin bakal makan waktu 5-15 menit buat nyelesaiinnya.. Kalo kurang menarik, bawa asik aja ya wkwkwk"</p>
+					<p style="text-align: right;">Bandung, 30 November 2020</p>
+					<p style="text-align: right;">frnzoshi</p>
+					<a class="link cd-btn cd-modal-trigger-1" href="#0">START</a>	
+				</div>
+				<!-- .modal-content -->
+				<a class="modal-close" href="#0">Close</a>
+			</main>
+
+			<!-- Second Wrapper: Maps Virtual Tour-->
+			<main class="cd-modal" id="1">
+				<div class="modal-content-map">
+					<div id="funday"></div>
+					<a class="modal-close" href="#01">Close</a>
+				</div>
+			</main>
+		</main>
+		<!-- Other Script -->
+		<script src="js/jquery.min.js"></script>
+    	<script src="js/main-thetale.js"></script>
+	</body>
+</html>
