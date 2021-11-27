@@ -57,7 +57,7 @@ main {
 
 /* ---------- Section 01 ---------- */
 .cd-main-content {
-  background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 1000%);
+  background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
   animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
   animation-fill-mode: forwards;
 }
